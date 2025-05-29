@@ -1,7 +1,7 @@
 # Project information
-site_name: Workshop title
+site_name: Intro into AI and LLM Workshop
 site_url: https://ibm.github.io/intro-ai-llm-workshop/
-site_author: IBM Developer
+site_author: IBM Research
 
 # Repository
 repo_name: intro-ai-llm-workshop
@@ -13,9 +13,11 @@ nav:
   - Welcome:
     - About the workshop: README.md
   - Workshop:
-    - Prerequisite: prerequisite/README.md
-    - Introduction: introduction/README.md
-    - Lab 1. Name: lab-1/README.md
+    - Lab 0. Pre-work: pre-work/README.md
+    - Lab 1. Command-Line Ollama: lab-1/README.md
+    - Lab 2. Using Open-WebUI Interface: lab-2/README.md
+    - Lab 3. Retrieval-Augmented Generation: lab-3/README.md
+    - Lab 4. Graphics and MultiModal LLM: lab-4/README.md
   - References:
     - Additional Resources: resources/RESOURCES.md
     - Contributors: resources/CONTRIBUTORS.md
@@ -23,7 +25,7 @@ nav:
 ## DO NOT CHANGE BELOW THIS LINE
 
 # Copyright
-copyright: Copyright &copy; 2023 IBM Developer
+copyright: Copyright &copy; 2025 IBM Research
 
 # Theme
 theme:
