@@ -21,24 +21,26 @@ The introductory page of the workshop is broken down into the following sections
 
 |  |  |
 | :--- | :--- |
-| [Prerequisite](prerequisite/README.md) | Prerequisites for the workshop |
+| [Prerequisite](pre-work/README.md) | Prerequisites for the workshop |
 | [Introduction](introduction/README.md) | Introduction |
-| [Lab 1: Something](lab-1/README.md) | Lab 1 |
+| [Lab 1: Command-Line Ollama](lab-1/README.md) | Lab 1 |
+| [Lab 2: Using Open-WebUI Interface](lab-2/README.md) | Lab 2 |
+| [Lab 3: Retrieval-Augmented Generation](lab-3/README.md) | Lab 3 |
+| [Lab 4: Graphics and MultiModal LLM](lab-4/README.md) | Lab 4 |
 
 ## Compatibility
 
 This workshop has been tested on the following platforms:
 
-* **Linux**:
-* **MacOS**
-* **Windows**
+* **Windows 11**
 
 ## Technology Used
 
-* one
-* two
-* three
+* IBM Granite Models
+* Open Source Ollama
+* Open source Open-WebUI
 
 ## Credits
 
 * [James Busche](https://github.com/jbusche)
+* [Yi-Hong Wang](https://github.com/yhwang)
