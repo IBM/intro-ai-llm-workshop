@@ -6,7 +6,7 @@
 open-webui serve
 ```
 4.3 Hit the localhost with the browser:
-        http://localhost:8080/
+[http://localhost:8080](http://localhost:8080/)
 4.4 Pick a model to use, for example:
         granite3.2-vision:2b
 4.5 Issue it some questions, try it out.  For example:

@@ -15,7 +15,7 @@ The answer isn't correct.
 List all the past and current CEOs of IBM corporation from oldest to latest
 ```
 3.7 We can also find and download to pdf from Wikipedia:
-https://en.wikipedia.org/wiki/History_of_IBM
+[History of IBM](https://en.wikipedia.org/wiki/History_of_IBM)
 	- On the right, click on "Tools" and Click on "Download as PDF"
 3.8 Then use this History_of_IBM.pdf as a RAG by clicking on the + and adding "History_of_IBM.pdf" as a file.
 3.9 Then use the Open-WebUI to ask more questions about IBM.

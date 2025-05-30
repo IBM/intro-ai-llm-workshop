@@ -5,8 +5,11 @@ Assumptions:
 These labs assume you have a Microsoft Windows 11 machine
 
 1.1 Download and Install Ollama:
-https://ollama.com/download/windows
+[Ollama](https://ollama.com/download/windows)
+
 Install Ollama by double-clicking on: OllamaSetup.exe
+
+And then clicking on "Install"
 
 1.2 Open up a command prompt (Search for "CMD" and click on "Command Prompt")
 
@@ -24,8 +27,11 @@ ollama pull llama3.2:3b
 Check out the entire Hugging face library of models at: https://ollama.com/library
 
 1.4 Install Python 3.11
-	https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
-	Double-click to install it
+
+[python-3.11.9-amd64.exe](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)
+
+Double-click to install it
+
 **Note: While installing - make sure you check the box to "add the python.exe to path"**
 
 1.5 Close and re-open your command prompt and then check to make sure python is findable on the path by typing:
@@ -33,6 +39,8 @@ Check out the entire Hugging face library of models at: https://ollama.com/libra
 python --version
 ```
 It should return: "Python 3.11.9"
+
+If it doesn't find the python command, likely you forgot to check the box to put python in the path.  No worry, just double-click on the downloaded python-3.1.9-amd64.exe file again and this time chose "Modify".  Then click "next" and then put a check next to the box: "Add Python to the environnment variables" and click "Install".
 
 1.6 Create a python virtual environment in your command prmopt:
 ```shell
@@ -60,7 +68,8 @@ open-webui serve
 ```
 
 1.11 Once the open-webui starts, use a browser to login to open-webui:
-http://localhost:8080
+
+[http://localhost:8080](http://localhost:8080)
 
 Enter a name, email address and password - these are stored locally.
 
