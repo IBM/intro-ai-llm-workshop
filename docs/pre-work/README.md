@@ -4,10 +4,10 @@ Assumptions:
 
 These labs assume you have a Microsoft Windows 11 machine
 
-1.1 Download and Install Ollama:
-[Ollama](https://ollama.com/download/windows)
+1.1 Download and Install Ollama for Windows:
+[Ollama for Windows](https://ollama.com/download/windows)
 
-Install Ollama by double-clicking on: OllamaSetup.exe
+Install Ollama by double-clicking on the downloaded `OllamaSetup.exe`
 
 And then clicking on "Install"
 
@@ -26,7 +26,7 @@ ollama pull llama3.2:3b
 ```
 Check out the entire Hugging face library of models at: https://ollama.com/library
 
-1.4 Install Python 3.11
+1.4 Install Python 3.11.9 for Windows
 
 [python-3.11.9-amd64.exe](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe)
 
@@ -40,7 +40,13 @@ python --version
 ```
 It should return: "Python 3.11.9"
 
-If it doesn't find the python command, likely you forgot to check the box to put python in the path.  No worry, just double-click on the downloaded python-3.1.9-amd64.exe file again and this time chose "Modify".  Then click "next" and then put a check next to the box: "Add Python to the environnment variables" and click "Install".
+If it doesn't find the python command, likely you forgot to check the box to put python in the path.  No worry, just:
+```bash
+Double-click on the downloaded python-3.1.9-amd64.exe file again and this time chose "Modify".  
+Click "next" 
+Put a check next to the box: "Add Python to the environnment variables" 
+Click "Install"
+```
 
 1.6 Create a python virtual environment in your command prmopt:
 ```shell
@@ -52,22 +58,17 @@ python -m venv --upgrade-deps --clear venv
 "venv/Scripts/activate.bat"
 ```
 
-1.8 Upgrade your pip version:
-```shell
-python -m pip install --upgrade pip
-```
-
-1.9 Install the Open-WebUI
+1.8 Install the Open-WebUI
 ```shell
 pip install open-webui
 ```
 
-1.10 Start up open-webui:
+1.9 Start up open-webui:
 ```shell
 open-webui serve
 ```
 
-1.11 Once the open-webui starts, use a browser to login to open-webui:
+1.10 Once the open-webui starts, use a browser to login to open-webui:
 
 [http://localhost:8080](http://localhost:8080)
 

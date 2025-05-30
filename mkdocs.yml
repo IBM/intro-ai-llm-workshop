@@ -37,7 +37,9 @@ theme:
     logo: material/library
   features:
     - navigation.tabs
+    - navigation.footer
     #- navigation.instant
+    - content.code.copy
   palette:
     scheme: default
     primary: blue
