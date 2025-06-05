@@ -40,6 +40,7 @@ theme:
     - navigation.footer
     #- navigation.instant
     - content.code.copy
+    - content.tabs.link
   palette:
     scheme: default
     primary: blue
@@ -95,7 +96,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
