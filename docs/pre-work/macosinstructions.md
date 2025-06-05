@@ -30,7 +30,13 @@ ollama pull llama3.2:3b
 ```
 Check out the entire Hugging face library of models at: https://ollama.com/library
 
-## 1.4 Install Python 3.11.9 for MacOS
+## 1.4 Install pyenv for MacOS
+```shell
+brew update
+brew install pyenv
+```
+
+## 1.5 Install Python 3.11.9 for MacOS
 ```shell
 pyenv install 3.11
 ```
@@ -43,19 +49,19 @@ pyenv -V
 ```
 It should return now 3.11.9
 
-## 1.5 Create a Python virtual environment:
+## 1.6 Create a Python virtual environment:
 ```shell
 python3 -m venv --upgrade-deps venv
 ```
-## 1.6 Activate the virtual environment:
+## 1.7 Activate the virtual environment:
 ```shell
 source venv/bin/activate
 ```
-## 1.7 Install Open-WebUI
+## 1.8 Install Open-WebUI
 ```shell
 pip install open-webui
 ```
-## 1.8 Start up Open-WebUI in a terminal window. You will leave this running during the workshop.
+## 1.9 Start up Open-WebUI in a terminal window. You will leave this running during the workshop.
 ```shell
 open-webui serve
 ```
