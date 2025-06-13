@@ -6,7 +6,7 @@ These labs can be run on a Windows 11 or MacOS machine.
 Click on the operation system you are using below to get the
 corresponding instructions.
 
-## Ollama Installation
+### Ollama Installation
 === "Windows"
     1.  Download [Ollama for Windows](https://ollama.com/download/windows)
 
@@ -24,7 +24,7 @@ corresponding instructions.
         ollama serve
         ```
 
-## Download Granite models
+### Download Granite models
 For the workshop, you will need to download at least 3 of the granite models: 
 ```shell
 ollama pull granite3.3:2b
@@ -38,7 +38,7 @@ ollama pull llama3.2:3b
 ```
 Check out the entire Hugging face library of models at: https://ollama.com/library
 
-## Install Python
+### Install Python
 For the workshop you will need Python 3.11.9. Follow the steps below for your operating system:
 
 === "Windows"
@@ -88,7 +88,7 @@ For the workshop you will need Python 3.11.9. Follow the steps below for your op
         ```
         It should return now 3.11.9
 
-## Python Virtual Environment:
+### Python Virtual Environment:
 
 Python virtual environment is used to isolated Python installations. Let's create one called "venv" and
 use it for the workshop.
@@ -115,7 +115,7 @@ use it for the workshop.
         source venv/bin/activate
         ```
 
-## Install the Open-WebUI
+### Install the Open-WebUI
 
 1.  Install the Open-WebUI by using the `pip` command:
     ```shell
@@ -127,14 +127,14 @@ use it for the workshop.
     open-webui serve
     ```
 
-## Access Open-WebUI
+### Access Open-WebUI
 
 1.  Once the open-webui starts, use a browser to login to open-webui:
     [http://localhost:8080](http://localhost:8080)
 
 1.  Enter a name, email address and password - these are stored locally.
 
-# Cleaning up after the lab is complete:
+## Cleaning up after the lab is complete:
 
 1.  Remove all the models you don't want:
     ```shell
