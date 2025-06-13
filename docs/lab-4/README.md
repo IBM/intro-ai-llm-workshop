@@ -2,14 +2,16 @@
 
 ### 4.1 Activate your python virtual environment if you haven't already:
 === "Windows"
-```shell
-"venv/Scripts/activate.bat"
-```
+    1.  Activate your python virtual environment:
+    ```shell
+    "venv/Scripts/activate.bat"
+    ```
 
 === "MacOS"
-```shell
-source venv/bin/activate
-```
+    1.  Activate your python virtual environment:
+    ```shell
+    source venv/bin/activate
+    ```
 
 ### 4.2 Start the Open WebUI
 ```bash
@@ -46,4 +48,7 @@ Kangaroo
 What is the lifespan for the animal in the photo?
 ```
 
-### 4.11 If you have additional time and interest, you can continue to try out what you've learned about using Open Source AI tools to run your own local AI system.  Have fun!
+### 4.11 Keep learning!
+If you have additional time and interest, you can continue to try out what you've learned about using Open Source AI tools to run your own local AI system.
+
+Have fun!

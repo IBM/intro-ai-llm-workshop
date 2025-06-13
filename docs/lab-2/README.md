@@ -2,14 +2,16 @@
 
 ### 2.1 Activate your python virtual environment if you haven't already:
 === "Windows"
-```shell
-"venv/Scripts/activate.bat"
-```
+    1.  Activate your python virtual environment:
+    ```shell
+    "venv/Scripts/activate.bat"
+    ```
 
 === "MacOS"
-```shell
-source venv/bin/activate
-```
+    1.  Activate your python virtual environment:
+    ```shell
+    source venv/bin/activate
+    ```
 
 ### 2.2 Start the Open WebUI
 ```bash
