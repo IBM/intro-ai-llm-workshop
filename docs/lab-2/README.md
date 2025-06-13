@@ -17,20 +17,22 @@ granite3.3:8b
 
 ## 2.5 Issue it some questions, try it out.  For example:
 ```bash
-list the first 10 presidents of the united states
+Describe the water cycle in detail, mentioning evaporation, condensation, precipitation, and collection.
 ```
 ```bash
-create an easy to make chocolate chip cookie recipe
+Who was Ada Lovelace, and why is she considered a pioneer in computer science?
 ```
 ```bash
-give me some places to visit while I'm in Silicon Valley
+Why are cats better companions than dogs?
+```
+```bash
+explain your reasoning for why cats and dogs are not inherently better
 ```
 ## 2.6 Clear the context by clicking on "New Chat"
 
 ## 2.7 Give it clear instructions to change the behavior.  For example:
 ```bash
-Only answer questions in rhyme
-What was domesticated first, a dog or a cat?
+Only answer questions in rhyme. What was domesticated first, a dog or a cat?
 ```
 
 ## 2.8 Clear the context by clicking on "New Chat"

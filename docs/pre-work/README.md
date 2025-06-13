@@ -61,11 +61,16 @@ For the workshop you will need Python 3.11.9. Follow the steps below for your op
         1.  Double-click on the downloaded python-3.1.9-amd64.exe file again and this time chose "Modify" and click "next" 
         1.  Put a check next to the box: "Add Python to the environnment variables" and click "Install".
 
+    1.  Optionally, you can also download and install git from [git-scm.com/downloads](https://git-scm.com/downloads/win)  
+
+        1. The latest one as of writing this document is: [Git-2.49.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe)
+        1. Double-click on the downloaded Git-2.49.0-64-bit.exe, take all the defaults and install
+
 === "MacOS"
-    1.  Install pyenv for MacOS. If you don't have it already:
+    1.  Install pyenv and git for MacOS. If you don't have them already:
         ```shell
         brew update
-        brew install pyenv
+        brew install pyenv git
         ```
     1.  Install Python 3.11.9 for MacOS
         ```shell

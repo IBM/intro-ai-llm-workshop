@@ -10,11 +10,13 @@ ollama run granite3.3:2b
 ```
 ## 1.3 Issue it some questions, try it out.  For example:
 ```bash
-list the first 10 presidents of the united states
-
-create an easy to make chocolate chip cookie recipe
-
-give me some places to visit while I'm in Silicon Valley
+What is the difference between a mammal and a reptile? Provide examples for each.
+```
+```bash
+Create an easy to make chocolate chip cookie recipe
+```
+```bash
+Who was Marie Curie and what are her key discoveries in the field of chemistry and physics?
 ```
 ## 1.4 Clear the context
 ```bash
@@ -37,9 +39,10 @@ ollama run granite3.2-vision:latest
 ```
 ## 1.8 Issue it some questions, try it out.  For example:
 ```bash
-create an easy to make chocolate chip cookie recipe
-
-list the ingredients as well as 5 optional additions
+Create an easy to make chocolate chip cookie recipe
+```
+```bash
+List the ingredients as well as 5 optional additions
 ```
 ## 1.9  Exit out of the current model:
 ```bash

@@ -1,6 +1,15 @@
 # Graphics and MultiModal LLM
 
-## 4.1 Get into the python environment if you're not already there:
+## 4.1 Activate your python virtual environment if you haven't already:
+=== "Windows"
+        ```shell
+        "venv/Scripts/activate.bat"
+        ```
+
+=== "MacOS"
+        ```shell
+        source venv/bin/activate
+        ```
 
 ## 4.2 Start the Open WebUI
 ```bash
@@ -9,13 +18,16 @@ open-webui serve
 ## 4.3 Hit the localhost with the browser:
 [http://localhost:8080](http://localhost:8080/)
 
-## 4.4 Pick a model to use, for example:
+## 4.4 Pick the vision model to use, for example:
         granite3.2-vision:2b
 
-## 4.5 Issue it some questions, try it out.  For example:
+## 4.5 This small vision model is multi-modal. This means the model has been trained from multiple modalities of data, such as text, images, audio, and video. So while the primary use of the vision model is to understand visual content, it's also trained with language datasets.  So you can issue it commands and it'l respoind as a small language model.  
+
+For example, you can ask a few simple questions:
 ```bash
-list the first 10 presidents of the united states
-create an easy to make chocolate chip cookie recipe
+Why would hydrogen gas not be preferred in balloons?
+```
+Create an easy apple pie recipe for the upcoming holiday?
 ```
 ## 4.6 Clear the context by clicking on "New Chat"
 
@@ -31,3 +43,5 @@ Kangaroo
 ```bash
 What is the lifespan for the animal in the photo?
 ```
+
+## 4.11 If you have additional time and interest, you can continue to try out what you've learned about using Open Source AI tools to run your own local AI system.  Have fun!
