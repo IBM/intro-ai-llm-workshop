@@ -18,12 +18,10 @@ Activate your Python virtual environment if you haven't already:
     ```
 
 ### Start the Open WebUI
+In a CMD prompt or terminal window, issue the command:
 ```bash
 open-webui serve
 ```
-!!! note
-    It would take a while to download some models and some initial configurations for the first time.
-
 ### Access the Open WebUI Web Interface
 By default, Open WebUI serves on the port 8080. Click the URL below to access the Open WebUI interface:
 [http://localhost:8080](http://localhost:8080/)
@@ -38,7 +36,7 @@ on your Ollama server. Click on the model name on the top left next to the `New 
 model. See the highlight of the image below for more details:
 ![select model](./images/select-model.png)
 
-Let's use `granite3.3:8b` for this lab.
+Let's select `granite3.3:8b` for this lab.
 ```shell
 granite3.3:8b
 ```

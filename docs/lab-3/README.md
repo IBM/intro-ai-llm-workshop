@@ -1,6 +1,6 @@
 # Retrieval-Augmented Generation
 
-### 3.1 In the Open-WebUI, switch to the smallest granite model:
+### 3.1 In the Open-WebUI, switch to the smallest Granite model: granite3.3:2b
 ```bash
 granite3.3:2b
 ```

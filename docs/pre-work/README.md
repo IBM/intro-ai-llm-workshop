@@ -13,6 +13,24 @@ corresponding instructions.
     1.  Install Ollama by double-clicking on the downloaded `OllamaSetup.exe`
         And then clicking on "Install"
 
+    1.  Download Granite models
+        !!! note
+        It would take a while to download some models and some initial configurations for the first time.
+
+	In another terminal window, pull down the Granite models you will want to use in the workshop. Larger models take more memory to run but can give better results.
+	```
+	ollama pull granite3.3:2b
+	ollama pull granite3.2-vision:2b
+	ollama pull granite3.3:8b
+	```
+
+	Note: We won't use them for this lab, but if you wanted to try some other LLM models, you can start with:
+	```
+	ollama pull deepseek-r1:1.5b
+	ollama pull llama3.2:3b
+	```
+	Check out the entire Hugging face library of models at: https://ollama.com/library
+
 === "MacOS"
     1.  Use Homebrew to install Ollama:
         ```shell
@@ -105,7 +123,7 @@ use it for the workshop.
         ```
 
 === "MacOS"
-    1.  Open the terminal run the following command to create a new virtual environment:
+    1.  Open a terminal window and run the following command to create a new virtual environment:
         ```shell
         python3 -m venv --upgrade-deps --clear venv
         ```
@@ -122,7 +140,7 @@ use it for the workshop.
     pip install open-webui
     ```
 
-1.  Start up open-webui:
+1.  Start up open-webui. You will leave this running during the workshop.
     ```shell
     open-webui serve
     ```
@@ -132,7 +150,7 @@ use it for the workshop.
 1.  Once the open-webui starts, use a browser to login to open-webui:
     [http://localhost:8080](http://localhost:8080)
 
-1.  Enter a name, email address and password - these are stored locally.
+1.  Enter a name, email address and password - these are stored locally. (Don't forget them!) 
 
 ## Cleaning up after the lab is complete:
 

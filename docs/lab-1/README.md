@@ -12,7 +12,7 @@ ollama list
 
 ### Try `granite3.3:2b` Model
 
-1.  Use `ollama run` command and specify the model name to run a model and start the
+1.  In a CMD prompt or terminal window, use `ollama run` command and specify the model name to run a model and start the
     conversation. Let's try out the `granite3.3:2b` model.:
     ```bash
     ollama run granite3.3:2b
