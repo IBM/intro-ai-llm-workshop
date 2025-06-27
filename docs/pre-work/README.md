@@ -13,11 +13,7 @@ corresponding instructions.
     1.  Install Ollama by double-clicking on the downloaded `OllamaSetup.exe`
         And then clicking on "Install"
 
-    1.  Download Granite models
-        !!! note
-        It would take a while to download some models and some initial configurations for the first time.
-
-	In another terminal window, pull down the Granite models you will want to use in the workshop. Larger models take more memory to run but can give better results.
+    1.  In a CMD or terminal window, pull down the Granite models you will want to use in the workshop. Larger models take more memory to run but can give better results.  It will take time to download the bigger models depending on your network speed.
 	```
 	ollama pull granite3.3:2b
 	ollama pull granite3.2-vision:2b
@@ -42,19 +38,19 @@ corresponding instructions.
         ollama serve
         ```
 
-### Download Granite models
-For the workshop, you will need to download at least 3 of the granite models: 
-```shell
-ollama pull granite3.3:2b
-ollama pull granite3.2-vision:2b
-ollama pull granite3.3:8b
-```
-Note: We won't use them for this lab, but if you wanted to try some other LLM models, you can start with:
-```shell
-ollama pull deepseek-r1:1.5b
-ollama pull llama3.2:3b
-```
-Check out the entire Hugging face library of models at: https://ollama.com/library
+    1.  In another terminal window, pull down the Granite models you will want to use in the workshop. Larger models take more memory to run but can give better results.  It will take time to download the bigger models depending on your network speed.
+        ```
+        ollama pull granite3.3:2b
+        ollama pull granite3.2-vision:2b
+        ollama pull granite3.3:8b
+        ```
+
+        Note: We won't use them for this lab, but if you wanted to try some other LLM models, you can start with:
+        ```
+        ollama pull deepseek-r1:1.5b
+        ollama pull llama3.2:3b
+        ```
+        Check out the entire Hugging face library of models at: https://ollama.com/library
 
 ### Install Python
 For the workshop you will need Python 3.11.9. Follow the steps below for your operating system:
