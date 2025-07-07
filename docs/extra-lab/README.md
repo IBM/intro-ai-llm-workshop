@@ -1,4 +1,4 @@
-# Retrieval-Augmented Generation
+# Retrieval-Augmented Generation (Extra lab)
 
 ### 1.1 In the Open-WebUI, switch to the smallest Granite model: granite3.3:2b
 ```bash
