@@ -1,42 +1,37 @@
-# Retrieval-Augmented Generation
+# Graphics and MultiModal LLM
 
-### 3.1 In the Open-WebUI, switch to the smallest Granite model: granite3.3:2b
+### 3.1 Continuing to use the running Open-WebUI with your browser at:
+[http://localhost:8080](http://localhost:8080/)
+
+### 3.2 Pick the vision model to use, for example:
+        granite3.2-vision:2b
+
+### 3.3 This small vision model is multi-modal. 
+Multi-modal means the model has been trained from multiple modalities of data, such as text, images, audio, and video. So while the primary use of the vision model is to understand visual content, it's also trained with language datasets.  So you can issue it questions and commands and it will still respond as a small language model.  
+
+For example, you can ask a few simple questions:
 ```bash
-granite3.3:2b
+Why would hydrogen gas not be preferred in balloons?
+```
+```bash
+Create an easy apple pie recipe for the upcoming holiday?
+```
+### 3.4 Clear the context by clicking on "New Chat"
+
+### 3.5 Using another tab on the browser, search for a image.  For example:
+```bash
+Kangaroo
+```
+### 3.6 In the search results, click on the "Images" tab and right-click on one of the photos you like and select "Copy Image"
+
+### 3.7 Using the Open-WebUI browser, do a `CTRL-V` to paste the copied image to the Open-WebUI and press enter. The Granite vision model will summarize what it sees from the image.
+
+### 3.8 Go ahead and ask the AI more questions about the animal in the image.  For example:
+```bash
+What is the lifespan for the animal in the photo?
 ```
 
-### 3.2 Click on "New Chat" so the context is clear
+### 3.9 Keep learning!
+If you have additional time and interest, you can continue to try out what you've learned about using Open Source AI tools to run your own local AI system.
 
-### 3.3 Ask it for:
-```bash
-List the past and current CEOs of the IBM corporation from first to last.
-```
-The answer isn't correct.
-
-### 3.4 Click on "New Chat" to clear the context
-
-### 3.5 Download a small text file with the correct list of IBM CEOs to your Downloads folder:
-[IBM.txt](https://ibm.github.io/intro-ai-llm-workshop/resources/IBM.txt)
-
-### 3.6 Click on the "+" and then Upload files
-
-Upload the IBM.txt file that you just downloaded
-
-### 3.7 Now ask it our question about the CEOs of IBM:
-```bash
-List all the past and current CEOs of the IBM corporation from first to last.
-```
-The answer should now be correct. (For example, always before it forgets Jon Akers)
-
-### 3.8 We can also find and download information to pdf from Wikipedia:
-For example: [History of IBM](https://en.wikipedia.org/wiki/History_of_IBM)
-
-### 3.9  On the right, click on "Tools" and Click on "Download as PDF"
-
-### 3.10 Then use this History_of_IBM.pdf as a RAG by clicking on the + and adding "History_of_IBM.pdf" as a file.
-
-### 3.11 Then use the Open-WebUI to ask more questions about IBM.
-```bash
-Who is the first female CEO of IBM?
-```
-The answer should be Ginni Rometty
+Have fun!

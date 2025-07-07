@@ -28,15 +28,14 @@ The introductory page of the workshop is broken down into the following sections
 | [Pre-Work](pre-work/README.md) | Prerequisites for the workshop |
 | [Lab 1: Command-Line Ollama](lab-1/README.md) | Lab 1 |
 | [Lab 2: Using Open-WebUI Interface](lab-2/README.md) | Lab 2 |
-| [Lab 3: Retrieval-Augmented Generation](lab-3/README.md) | Lab 3 |
-| [Lab 4: Graphics and MultiModal LLM](lab-4/README.md) | Lab 4 |
+| [Lab 3: Graphics and MultiModal LLM](lab-3/README.md) | Lab 3 |
 
 ## Compatibility
 
 This workshop has been tested on the following platforms:
 
 * **Windows 11** (Ideally with at least 16GB of memory, but 8GB memory can work with smaller models.
-* (MacOS instructions to follow soon)
+* (MacOS instructions included)
 
 ## Technology Used
 

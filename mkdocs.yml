@@ -16,11 +16,11 @@ nav:
     - Lab 0. Pre-work: pre-work/README.md
     - Lab 1. Command-Line Ollama: lab-1/README.md
     - Lab 2. Using Open-WebUI Interface: lab-2/README.md
-    - Lab 3. Retrieval-Augmented Generation: lab-3/README.md
-    - Lab 4. Graphics and MultiModal LLM: lab-4/README.md
+    - Lab 3. Graphics and MultiModal LLM: lab-3/README.md
   - References:
     - Additional Resources: resources/RESOURCES.md
     - Contributors: resources/CONTRIBUTORS.md
+    - Extra Lab. Retrieval-Augmented Generation: extra-lab/README.md
 
 ## DO NOT CHANGE BELOW THIS LINE
 
