@@ -28,17 +28,11 @@ corresponding instructions.
 	Check out the entire Hugging face library of models at: https://ollama.com/library
 
 === "MacOS"
-    1.  Use Homebrew to install Ollama:
-        ```shell
-        brew install ollama
-        ```
+    1.  Download [Ollama for Mac](https://ollama.com/download/Ollama.dmg)
 
-    1.  Start the Ollama server. You will leave this running during the workshop.
-        ```shell
-        ollama serve
-        ```
+    1.  Drag the Ollama to your applications folder, then double-click on the ollama application to start it up.
 
-    1.  In another terminal window, pull down the Granite models you will want to use in the workshop. Larger models take more memory to run but can give better results.  It will take time to download the bigger models depending on your network speed.
+    1.  In a terminal window, pull down the Granite models you will want to use in the workshop. Larger models take more memory to run but can give better results.  It will take time to download the bigger models depending on your network speed.
         ```
         ollama pull granite3.3:2b
         ollama pull granite3.2-vision:2b
@@ -148,6 +142,31 @@ use it for the workshop.
 
 1.  Enter a name, email address and password - these are stored locally. (Don't forget them!) 
 
+### Create scripts to activate and start your environments up with one "go-webui" script going forward:
+=== "Windows"
+    1.  In a command prompt, type in "notepad go-webui.bat" and press enter, then add the following info and press save:
+        ```shell
+        @echo off
+        CALL "%USERPROFILE%\venv\Scripts\activate.bat"
+        open-webui serve
+        ```
+
+    1.  Run the bat script from the command line in the future by typing:
+        ```shell
+        go-webui.bat
+        ```
+
+=== "MacOS"
+    1.  Open a terminal window and run the following commands to create a go-webui.sh shell script:
+        ```shell
+        echo "source venv/bin/activate" > go-webui.sh
+        echo "open-webui serve" >> go-webui.sh
+        chmod +x go-webui.sh
+        ```
+    1.  Run the shell script from a terminal window in the future by typing:
+        ```shell
+        go-webui.sh
+        ```
 ## Cleaning up after the lab is complete:
 
 1.  Remove all the models you don't want:
@@ -166,6 +185,8 @@ use it for the workshop.
         ```shell
         brew uninstall ollama
         ```
+  
+        Or if you dragged Ollama to the applicatino folder, you can delete the Ollama application in the Application folder.
 
 1. Stop and remove open-webUI:
 
@@ -177,7 +198,7 @@ use it for the workshop.
             venv/Scripts/deactivate.bat
             ```
         
-        1.  If you want to remove the virutal environment completely:
+        1.  If you want to remove the virtual environment completely:
             ```shell
             rmdir /s venv
             ```

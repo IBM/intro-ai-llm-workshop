@@ -6,15 +6,15 @@ In this lab, you will learn how to use it and explore some of its basic features
 Open-WebUI is a Python package installed in the Python virtual environment you created earlier.
 Activate your Python virtual environment if you haven't already:
 === "Windows"
-    1.  Activate your Python virtual environment:
+    1. In a command prompt, run the go-webui.bat file you created in pre-work:
     ```shell
-    "venv/Scripts/activate.bat"
+    go-webui.bat
     ```
 
 === "MacOS"
-    1.  Activate your Python virtual environment:
+    1.  In a command terminal, run the go-webui.sh file you created in pre-work:
     ```shell
-    source venv/bin/activate
+    go-webui.sh
     ```
 
 ### Start the Open WebUI
