@@ -75,26 +75,37 @@ For the workshop you will need Python 3.11.9. Follow the steps below for your op
         1. Double-click on the downloaded Git-2.49.0-64-bit.exe, take all the defaults and install
 
 === "MacOS"
-    1.  Install pyenv and git for MacOS. If you don't have them already:
+    1.  Open a terminal window and check to see if you have the brew command already:
         ```shell
-        brew update
-        brew install pyenv git
-        ```
-    1.  Install Python 3.11.9 for MacOS
-        ```shell
-        pyenv install 3.11.9
+        brew
         ```
 
-    1.  Use the Python version you just installed:
+    1.  If you have Brew, skip to the next step.  Otherwise, install brew on MacOS with this command:
         ```shell
-        pyenv global 3.11.9
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        ```
+  
+    1.  Install uv for MacOS. If you don't have them already:
+        ```shell
+        brew update
+        brew install uv
+        ```
+
+    1.  Install Python 3.11.9 for MacOS
+        ```shell
+        uv venv --python 3.11 --seed .venv
+        ```
+
+    1.  Activate the Python virtual env you just created:
+        ```shell
+        source .venv/bin/activate
         ```
 
     1. Verify the Python version:
         ```shell
-        pyenv version-name
+        python --version
         ```
-        It should return now 3.11.9
+        It should return now 3.11.x
 
 ### Python Virtual Environment:
 
@@ -113,22 +124,34 @@ use it for the workshop.
         ```
 
 === "MacOS"
-    1.  Open a terminal window and run the following command to create a new virtual environment:
+    1.  Open up a terminal window and install Python 3.11.x for MacOS which also creates a python virtual environment
         ```shell
-        python3 -m venv --upgrade-deps --clear venv
+        uv venv --python 3.11 --seed .venv
+        ```
+        
+    1.  Activate the Python virtual env you just created:
+        ```shell
+        source .venv/bin/activate
         ```
 
-    1.  Activate the virtual environment:
+    1. Verify the Python version:
         ```shell
-        source venv/bin/activate
+        python --version
         ```
+        It should return now 3.11.x
 
 ### Install the Open-WebUI
+=== "Windows"
+    1.  In the open command prompt, run the following command to Install the Open-WebUI:
+        ```shell
+        pip install open-webui
+        ```
 
-1.  Install the Open-WebUI by using the `pip` command:
-    ```shell
-    pip install open-webui
-    ```
+=== "MacOS"
+    1.  In the open terminal window, run the following command to Install the Open-WebUI:
+        ```shell
+        uv pip install open-webui 
+        ```
 
 1.  Start up open-webui. You will leave this running during the workshop.
     ```shell
@@ -159,14 +182,18 @@ use it for the workshop.
 === "MacOS"
     1.  Open a terminal window and run the following commands to create a go-webui.sh shell script:
         ```shell
-        echo "source venv/bin/activate" > go-webui.sh
-        echo "open-webui serve" >> go-webui.sh
-        chmod +x go-webui.sh
+        echo "source .venv/bin/activate" > ~/Desktop/go-webui.command
+        echo "open-webui serve" >> ~/Desktop/go-webui.command
+        chmod +x ~/Desktop/go-webui.command
         ```
     1.  Run the shell script from a terminal window in the future by typing:
         ```shell
-        go-webui.sh
+        ~/Desktop/go-webui.command/go-webui.command
         ```
+
+        Or you can doubleclick on the go-webui.command window on your Desktop
+
+
 ## Cleaning up after the lab is complete:
 
 1.  Remove all the models you don't want:
