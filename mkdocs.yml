@@ -17,10 +17,11 @@ nav:
     - Lab 1. Command-Line Ollama: lab-1/README.md
     - Lab 2. Using Open-WebUI Interface: lab-2/README.md
     - Lab 3. Graphics and MultiModal LLM: lab-3/README.md
+    - Lab 4. Retrieval-Augmented Generation: lab-4/README.md
+    - Lab 5. Agentic AI with Open-WebUI: lab-5/README.md
   - References:
     - Additional Resources: resources/RESOURCES.md
     - Contributors: resources/CONTRIBUTORS.md
-    - Extra Lab. Retrieval-Augmented Generation: extra-lab/README.md
 
 ## DO NOT CHANGE BELOW THIS LINE
 
