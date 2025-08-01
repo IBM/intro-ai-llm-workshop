@@ -29,6 +29,8 @@ The introductory page of the workshop is broken down into the following sections
 | [Lab 1: Command-Line Ollama](lab-1/README.md) | Lab 1 |
 | [Lab 2: Using Open-WebUI Interface](lab-2/README.md) | Lab 2 |
 | [Lab 3: Graphics and MultiModal LLM](lab-3/README.md) | Lab 3 |
+| [Lab 4: Retrieval-Augmented Generation](lab-4/README.md) | Lab 4 |
+| [Lab 5: Agentic AI with Open-WebUI](lab-5/README.md) | Lab 5 |
 
 ## Compatibility
 
